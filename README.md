@@ -11,6 +11,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 - Freetype (only .lib and .dll)
 - glib (version 2.16.3)
 - Iconv (only .lib and .dll)
+- jpeg (only .lib and .dll)
 - GTK (version 2.12.9)
 - [LibTool](http://gnuwin32.sourceforge.net/packages/libtool.htm) (version 1.5.26)
 - Pango and pangocairco
