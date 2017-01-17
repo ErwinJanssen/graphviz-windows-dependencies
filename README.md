@@ -9,6 +9,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 - Fontconfig (only .lib and .dll)
 - [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) (version 3.0.0)
 - Freetype (only .lib and .dll)
+- [GD Graphics library](https://libgd.github.io/) (version 2.2.0)
 - glib (version 2.16.3)
 - Iconv (only .lib and .dll)
 - jpeg (only .lib and .dll)
