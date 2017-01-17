@@ -7,5 +7,6 @@ These precompiled libraries are used for building and running Graphviz on Window
 - [The Expat XML Parser](http://www.libexpat.org/) (version 2.2.0)
 - [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) (version 3.0.0)
 - [LibTool](http://gnuwin32.sourceforge.net/packages/libtool.htm) (version 1.5.26)
+- Pango and pangocairco
 - [RxSpencer](http://gnuwin32.sourceforge.net/packages/rxspencer.htm) (version 3.8.g.3)
 - zlib (version 1.2.3)
