@@ -3,6 +3,7 @@
 These precompiled libraries are used for building and running Graphviz on Windows. This repository contains:
 
 - [ANN: A Library for Approximate Nearest Neighbor Searching](http://www.cs.umd.edu/~mount/ANN/) (version 1.12)
+- atk (version 1.22)
 - Cairo
 - [The Expat XML Parser](http://www.libexpat.org/) (version 2.2.0)
 - [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) (version 3.0.0)
