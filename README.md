@@ -9,5 +9,6 @@ These precompiled libraries are used for building and running Graphviz on Window
 - glib (version 2.16.3)
 - [LibTool](http://gnuwin32.sourceforge.net/packages/libtool.htm) (version 1.5.26)
 - Pango and pangocairco
+- PNG
 - [RxSpencer](http://gnuwin32.sourceforge.net/packages/rxspencer.htm) (version 3.8.g.3)
 - zlib (version 1.2.3)
