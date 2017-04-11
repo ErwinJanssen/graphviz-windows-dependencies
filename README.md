@@ -16,7 +16,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 | Iconv | only .lib and .dll | - |
 | jpeg | only .lib and .dll | - |
 | GTK | 2.12.9 | - |
-| [LibTool](http://gnuwin32.sourceforge.net/packages/libtool.htm) | 1.5.26 | - |
+| [LibTool](http://gnuwin32.sourceforge.net/packages/libtool.htm) | 1.5.26 | yes (with msys-2.0.dll) |
 | Pango and pangocairco | yes | - |
 | PNG | yes | - |
 | [RxSpencer](http://gnuwin32.sourceforge.net/packages/rxspencer.htm) | 3.8.g.3 | yes |
