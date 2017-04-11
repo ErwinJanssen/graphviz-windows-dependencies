@@ -20,4 +20,4 @@ These precompiled libraries are used for building and running Graphviz on Window
 | Pango and pangocairco | yes | - |
 | PNG | yes | - |
 | [RxSpencer](http://gnuwin32.sourceforge.net/packages/rxspencer.htm) | 3.8.g.3 | - |
-| zlib | 1.2.3 | - |
+| [zlib](http://windows.php.net/downloads/php-sdk/deps/vc14/x64/) | 1.2.8 | 1.2.8 |
