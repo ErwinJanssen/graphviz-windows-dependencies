@@ -21,33 +21,10 @@ typedef struct {
 	regoff_t rm_so;		/* start of match */
 	regoff_t rm_eo;		/* end of match */
 } regmatch_t;
-#ifndef __GNUC__
-# define __DLL_IMPORT__	__declspec(dllimport)
-# define __DLL_EXPORT__	__declspec(dllexport) 
-#else
-# define __DLL_IMPORT__	__attribute__((dllimport)) extern
-# define __DLL_EXPORT__	__attribute__((dllexport)) extern
-#endif 
-
-#if (defined __WIN32__) || (defined _WIN32)
-# ifdef BUILD_RXSPENCER_DLL
-#  define RXSPENCER_DLL_IMPEXP	__DLL_EXPORT__
-# elif defined(RXSPENCER_STATIC)
-#  define RXSPENCER_DLL_IMPEXP	 
-# elif defined (USE_RXSPENCER_DLL)
-#  define RXSPENCER_DLL_IMPEXP	__DLL_IMPORT__
-# elif defined (USE_RXSPENCER_STATIC)
-#  define RXSPENCER_DLL_IMPEXP 	 
-# else 
-#  define RXSPENCER_DLL_IMPEXP	__DLL_IMPORT__
-# endif
-#else 
-# define RXSPENCER_DLL_IMPEXP	 
-#endif
 
 
 /* === ../rxspencer-3.8.g.3-src/regcomp.c === */
-RXSPENCER_DLL_IMPEXP int regcomp(regex_t *, const char *, int);
+int regcomp(regex_t *, const char *, int);
 #define	REG_BASIC	0000
 #define	REG_EXTENDED	0001
 #define	REG_ICASE	0002
@@ -78,11 +55,11 @@ RXSPENCER_DLL_IMPEXP int regcomp(regex_t *, const char *, int);
 #define	REG_INVARG	16
 #define	REG_ATOI	255	/* convert name to number (!) */
 #define	REG_ITOA	0400	/* convert number to name (!) */
-RXSPENCER_DLL_IMPEXP size_t regerror(int, const regex_t *, char *, size_t);
+size_t regerror(int, const regex_t *, char *, size_t);
 
 
 /* === ../rxspencer-3.8.g.3-src/regexec.c === */
-RXSPENCER_DLL_IMPEXP int regexec(const regex_t *, const char *, size_t, regmatch_t [], int);
+int regexec(const regex_t *, const char *, size_t, regmatch_t [], int);
 #define	REG_NOTBOL	00001
 #define	REG_NOTEOL	00002
 #define	REG_STARTEND	00004
@@ -92,7 +69,7 @@ RXSPENCER_DLL_IMPEXP int regexec(const regex_t *, const char *, size_t, regmatch
 
 
 /* === ../rxspencer-3.8.g.3-src/regfree.c === */
-RXSPENCER_DLL_IMPEXP void regfree(regex_t *);
+void regfree(regex_t *);
 
 #ifdef __cplusplus
 }
