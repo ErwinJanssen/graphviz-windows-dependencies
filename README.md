@@ -6,7 +6,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 | ------- | :-: | :-: |
 | [ANN: A Library for Approximate Nearest Neighbor Searching](http://www.cs.umd.edu/~mount/ANN/) | 1.12 | - |
 | atk | 1.22 | - |
-| Cairo | yes | - |
+| [Cairo](http://windows.php.net/downloads/pecl/deps/) | 1.14.8 | 1.14.8 |
 | [The Expat XML Parser](http://windows.php.net/downloads/pecl/deps/) | 2.1.0 | 2.1.0 |
 | Fontconfig | only .lib and .dll | - |
 | [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) | 3.0.0 | - |
