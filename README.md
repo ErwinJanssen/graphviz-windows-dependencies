@@ -12,7 +12,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 | [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) | 3.0.0 | - |
 | Freetype | only .lib and .dll | - |
 | [GD Graphics library](https://libgd.github.io/) | 2.2.0 | - |
-| glib | 2.16.3 | - |
+| [glib](http://windows.php.net/downloads/php-sdk/deps/vc14/) | 2.49.4 | 2.49.4 |
 | Iconv | only .lib and .dll | - |
 | jpeg | only .lib and .dll | - |
 | GTK | 2.12.9 | - |
