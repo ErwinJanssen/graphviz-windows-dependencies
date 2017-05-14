@@ -8,7 +8,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 | atk | 1.22 | - |
 | [Cairo](http://windows.php.net/downloads/pecl/deps/) | 1.14.8 | 1.14.8 |
 | [The Expat XML Parser](http://windows.php.net/downloads/pecl/deps/) | 2.1.0 | 2.1.0 |
-| Fontconfig | only .lib and .dll | - |
+| [Fontconfig](http://windows.php.net/downloads/pecl/deps/) | 2.12 | 2.12 |
 | [FreeGLUT](http://www.transmissionzero.co.uk/software/freeglut-devel/) | 3.0.0 | - |
 | Freetype | only .lib and .dll | - |
 | [GD Graphics library](https://libgd.github.io/) | 2.2.0 | - |
