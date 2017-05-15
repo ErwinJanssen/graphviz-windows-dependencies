@@ -13,6 +13,7 @@ These precompiled libraries are used for building and running Graphviz on Window
 | Freetype | only .lib and .dll | - |
 | [GD Graphics library](https://libgd.github.io/) | 2.2.0 | - |
 | [glib](http://windows.php.net/downloads/php-sdk/deps/vc14/) | 2.49.4 | 2.49.4 |
+| [Harfbuzz](http://windows.php.net/downloads/pecl/deps/) | 1.3.4 | 1.3.4 |
 | [Iconv](http://windows.php.net/downloads/php-sdk/deps/vc14/) | 1.15 | 1.15 |
 | jpeg | only .lib and .dll | - |
 | GTK | 2.12.9 | - |
