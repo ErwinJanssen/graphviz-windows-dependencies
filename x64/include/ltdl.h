@@ -15,7 +15,19 @@ int lt_dlinit()
 
 const char* lt_dlerror()
 {
-    return "not implemented";
+    DWORD dLastError = GetLastError();
+    LPCTSTR strErrorMessage = NULL;
+
+    FormatMessage(
+        FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS | FORMAT_MESSAGE_ARGUMENT_ARRAY | FORMAT_MESSAGE_ALLOCATE_BUFFER,
+        NULL,
+        dLastError,
+        0,
+        (LPWSTR) &strErrorMessage,
+        0,
+        NULL
+    );
+    return strErrorMessage;
 }
 
 lt_dlhandle lt_dlopen(char* p)
